@@ -7,8 +7,7 @@
 
 body {
   background-color: #FEF6E4;
-  /* overflow-x: hidden*/
-  /*overflow-y: hidden*/ 
+  overflow-x: hidden;
 }
 
 nav {
@@ -45,7 +44,7 @@ main {
   justify-content: space-between;
 }
 main .content {
-  margin-left: 60px;
+  margin-left: 160px;
   margin-bottom: 250px;
 }
 main .content h1 {
@@ -53,18 +52,73 @@ main .content h1 {
   letter-spacing: 10px;
 }
 main .content h1 span {
-  color: green;
+  color: gree;
 }
-main p {
+main .content p {
   margin: 25px 0 30px;
   font-size: 18px;
   width: 450px;
 }
-main button {
+main .content button {
   padding: 10px 20px;
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 5px;
   border-radius: 50px;
   background-color: green;
+}
+main .footer .ramo01 {
+  position: absolute;
+  left: -100px;
+  bottom: 0;
+  width: 350px;
+}
+main .footer .ramo02 {
+  position: absolute;
+  left: 300px;
+  bottom: 0;
+  width: 350px;
+}
+main .footer .ramo03 {
+  position: absolute;
+  right: 350px;
+  bottom: 0;
+  width: 400px;
+  z-index: 1;
+}
+main .footer .ramo04 {
+  position: absolute;
+  right: -150px;
+  bottom: 0;
+  width: 400px;
+  z-index: 1;
+}
+main .footer .imagen02 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+main .footer .imagen03 {
+  position: absolute;
+  bottom: 0;
+  right: 800px;
+  z-index: -1;
+}
+main .footer .imagen04 {
+  position: absolute;
+  bottom: 0;
+  right: 440px;
+  z-index: -1;
+}
+main .footer .imagen05 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+main .footer .imagen06 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }/*# sourceMappingURL=stayle.css.map */
