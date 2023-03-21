@@ -19,6 +19,8 @@ nav
         align-items: center
         justify-content: space-around
         gap: 20px
+        opacity: 0
+        animation: cabecalho 1s ease forwards
 
         li
             list-style: none
@@ -37,6 +39,8 @@ nav
 
     h1
         letter-spacing: 5px
+        opacity: 0
+        animation: logo 2s ease forwards
         
         strong
             color: #7EB884
@@ -54,6 +58,8 @@ main
             text-shadow: 0 4px 4px rgb(55, 104, 87, .75)
             font-size: 55px
             letter-spacing: 10px
+            opacity: 0
+            animation: titu01 1s ease forwards
 
             span
                 color: #7EB884
@@ -62,6 +68,8 @@ main
             margin: 25px 0 30px
             font-size: 18px
             width: 450px
+            opacity: 0
+            animation: lorem 1s ease forwards
 
         button
             padding: 10px 20px
@@ -73,6 +81,8 @@ main
             color: #5F9B65
             border: 5px solid #295746
             transition: .5s ease
+            opacity: 0
+            animation: butt 1s ease forwards
         
         button:hover
             font-size: 23px
@@ -82,7 +92,7 @@ main
             box-shadow: 0 0 20px #133F2D
             border: none
     .footer
-
+        
         .ramo01
             position: absolute
             left: -100px
@@ -132,9 +142,67 @@ main
             left: 0
             z-index: -1
         
-        .imagen06
-            position: absolute
-            top: 0
-            right: 0
-            z-index: -1
+    .imagen06
+        position: absolute
+        top: 0
+        right: 0
+        z-index: -1
+        opacity: 0
+        animation: fundo 1s ease forwards
         
+
+@keyframes cabecalho 
+  0% 
+    transform: translateX(-100px)
+    opacity: 0
+  
+  100% 
+    transform: translateX(0)
+    opacity: 1
+  
+@keyframes logo 
+  0% 
+    transform: translateX(100px)
+    opacity: 0
+  
+  100% 
+    transform: translateX(0)
+    opacity: 1
+  
+@keyframes titu01 
+  0% 
+    transform: translateY(-100px)
+    opacity: 0
+  
+  100% 
+    transform: translateY(0)
+    opacity: 1
+
+@keyframes lorem 
+  0% 
+    transform: translateX(100px)
+    opacity: 0
+  
+  100% 
+    transform: translateX(0)
+    opacity: 1
+
+@keyframes butt
+  0% 
+    transform: translateY(-100px)
+    opacity: 0
+  
+  100% 
+    transform: translateY(0)
+    opacity: 1
+
+
+@keyframes fundo
+  0% 
+    transform: translateY(-100px)
+    opacity: 0
+  
+  100% 
+    transform: translateY(0)
+    opacity: 1
+
