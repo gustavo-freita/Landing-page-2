@@ -30,12 +30,18 @@ nav ul li a {
   font-size: 20px;
   font-weight: 800;
   color: #000;
+  transition: 0.2s ease;
+}
+nav ul li a:hover {
+  font-size: 22px;
+  border-bottom: 2px solid #7EB884;
+  color: #7EB884;
 }
 nav h1 {
   letter-spacing: 5px;
 }
 nav h1 strong {
-  color: green;
+  color: #7EB884;
 }
 
 main {
@@ -48,11 +54,12 @@ main .content {
   margin-bottom: 250px;
 }
 main .content h1 {
+  text-shadow: 0 4px 4px rgba(55, 104, 87, 0.75);
   font-size: 55px;
   letter-spacing: 10px;
 }
 main .content h1 span {
-  color: gree;
+  color: #7EB884;
 }
 main .content p {
   margin: 25px 0 30px;
@@ -65,7 +72,18 @@ main .content button {
   font-weight: 800;
   letter-spacing: 5px;
   border-radius: 50px;
-  background-color: green;
+  background-color: #FEF6E4;
+  color: #5F9B65;
+  border: 5px solid #295746;
+  transition: 0.5s ease;
+}
+main .content button:hover {
+  font-size: 23px;
+  background-color: #5F9B65;
+  color: #FEF6E4;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 20px #133F2D;
+  border: none;
 }
 main .footer .ramo01 {
   position: absolute;
